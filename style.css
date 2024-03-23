@@ -28,11 +28,8 @@
 /* mobile width  */
 @media screen and (max-width: 400px) {
     #contener{
-        width: 240px;
-        margin: 150px 0px 20px 0px;
-
-
-        padding: 1px;
+        width: 90%;
+        
     }
 
     #learning{
@@ -102,6 +99,7 @@ svg{
 .html{
     font-weight: bold;
     font-family: figtree-extrabold;
+    font-size: 25vw;
 }
 
 .html:hover{
