@@ -1,8 +1,3 @@
-#flex{
-    display: flex;
-    justify-content: center;
-}
-
 *{
     padding: 0px;
     margin: 0px;
@@ -35,8 +30,15 @@
 
 /* mobile width  */
 @media screen and (max-width: 400px) {
-    
 
+    #contener{
+     width: 90%;
+    } 
+    #flex{
+    display: flex;
+    justify-content: center;
+    }
+    
     #learning{
         margin: 0px 0px 0px 0px ;
     }
