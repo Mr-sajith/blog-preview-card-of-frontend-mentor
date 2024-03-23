@@ -28,10 +28,11 @@
 /* mobile width  */
 @media screen and (max-width: 400px) {
     #contener{
-        width: 95%;
+        width: 90%;
 
+        padding: 1.3em;
+        margin: 150px auto 20px auto;
 
-        padding: 10px;
     }
 
     #learning{
