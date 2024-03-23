@@ -28,8 +28,8 @@
 /* mobile width  */
 @media screen and (max-width: 400px) {
     #contener{
-        width:90%;
-        margin: 150px 0px 20px p0px;
+        width: 240px;
+        margin: 150px 0px 20px 0px;
 
 
         padding: 1px;
