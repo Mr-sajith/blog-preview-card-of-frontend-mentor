@@ -1,0 +1,141 @@
+
+/*  fonts */
+@font-face{
+    font-family: figtree-variable;
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+@font-face{
+    font-family: figtree-italic;
+    src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+@font-face{
+    font-family: figtree-extrabold;
+    src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: figtree-semibold;
+    src: url(./assets/fonts/static/Figtree-SemiBold.ttf);
+}
+
+
+/* mobile width  */
+@media screen and (max-width: 400px) {
+    #contener{
+        width: 80%;
+
+
+        padding: 10px;
+    }
+
+    #learning{
+        margin: 0px 0px 0px 0px ;
+    }
+
+    
+}
+
+
+:root{
+    --background-color: hsl(47, 88%, 63%);
+    --Grey: hsl(0, 0%, 50%);
+    --contener-background-color: hsl(0, 0%, 100%);
+    --contener-box-boredr-colore: Black: hsl(0, 0%, 7%);
+
+}
+
+body{
+    background-color:  var(--background-color);
+    font-family: figtree-variable;
+}
+
+.contener{
+    background-color: var(--contener-background-color);
+    width: 320px;
+
+    padding: 1.3em;
+    margin: 150px auto 20px auto;
+
+    /* box border worke */
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 8px 8px black;
+}
+
+.image{
+    text-align: center;
+}
+
+svg{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.learning{
+    background-color: var(--background-color);
+    display: inline-block;
+
+    font-family: figtree-extrabold;
+    font-weight: bold;
+    font-size: small;
+
+    padding: 6px 10px;
+    margin: 1.8em 0px 0px 0px ;
+
+
+    border-radius: 5px;
+
+
+}
+
+.published{
+    font-size: 0.9em;
+
+    font-family: figtree-semibold;
+
+}
+
+.html{
+    font-weight: bold;
+    font-family: figtree-extrabold;
+}
+
+.html:hover{
+    color: var(--background-color);
+
+    cursor: pointer;
+     
+}
+
+
+.these{
+    color: var(--Grey);
+
+    margin-bottom: 1.5em;
+
+}
+
+img{
+    width: 35px;
+    height: 35px;
+}
+
+.grag-hooper{
+    margin-left: 8px;
+    font-family: figtree-extrabold;
+    position: relative;
+    top: -10px;
+
+}
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    margin-bottom: 150px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
