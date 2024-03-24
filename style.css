@@ -29,9 +29,8 @@
 @media screen and (max-width: 400px) {
     #contener{
         width: 90%;
-        margin: 0px;
         padding: 10px;
-        
+        margin: 150px 0px 20px 0px;
     }
 
     #learning{
@@ -74,7 +73,7 @@ body{
 
 svg{
     border-radius: 10px;
-    width: 90%;
+    width: 100%;
 }
 
 .learning{
